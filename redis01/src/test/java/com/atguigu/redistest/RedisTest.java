@@ -8,5 +8,6 @@ public class RedisTest {
     public void  test01(){
         Jedis jedis = new Jedis("192.168.123.100",6379);
         System.out.println(jedis.ping());
+        System.out.println("连接成功");
     }
 }
